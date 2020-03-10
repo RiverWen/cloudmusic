@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "w-playlist":"/components/playlist/playlist"
+  }
 }

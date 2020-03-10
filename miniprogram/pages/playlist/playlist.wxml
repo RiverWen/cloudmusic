@@ -1,3 +1,13 @@
-<!--pages/playlist/playlist.wxml-->
-<text>pages/playlist/playlist.wxml</text>
-<button>button</button>
+<swiper indicator-dots="true" autoplay="true" interval="2000" duration="1000" circular="true">
+    <block wx:for="{{swiperImgUrls}}" wx:key="x">
+        <swiper-item>
+            <image src="{{item.url}}" mode="widthFix" class="img"></image>
+        </swiper-item>
+    </block>
+</swiper>
+<view class="playlist-container">
+    <block wx:for="{{playlist}}" wx:key="id">
+        <w-playlist playlist="{{item}}">
+        </w-playlist>
+    </block>
+</view>

@@ -2,18 +2,21 @@
   "pages": [
     "pages/playlist/playlist",
     "pages/blog/blog",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/demo/demo"
     
     
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarBackgroundColor": "#d43c33",
     "navigationBarTitleText": "CLOUD MUSIC",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white"
   },
   "tabBar":{
+    "color":"#47474",
+    "selectedColor":"#d43c33",
     "list":[
       {
       "pagePath": "pages/playlist/playlist",
@@ -23,7 +26,7 @@
       },
       {
       "pagePath": "pages/blog/blog",
-      "text": "发布",
+      "text": "发现",
       "iconPath": "images/blog.png",
       "selectedIconPath": "images/blog-actived.png"
       },
