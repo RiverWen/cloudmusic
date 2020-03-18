@@ -28,6 +28,12 @@ Component({
    * 组件的方法列表
    */
   methods: {
+      gotoMusiclist: function () {
+          wx.navigateTo({
+              url: `../../pages/musiclist/musiclist?playlistId=${this.properties.playlist.id}`,
+          })
+      },
+
       _transNum(num,point){
           let numStr = num.toFixed().toString()
           if(numStr.length < 4){

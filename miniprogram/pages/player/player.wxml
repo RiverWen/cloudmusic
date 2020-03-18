@@ -1,0 +1,24 @@
+<view class="player-container" style="background:url({{musicInfo.al.picUrl}}) no-repeat center/cover">
+</view>
+<view class="player-mask"></view>
+
+<view class="player-info">
+
+    <view class="player-disk {{isPlaying?'play':''}}" bindtap="onLyric" hidden="{{isLyric}}">
+        <image class="player-img rotation {{isPlaying?'':'rotation-pause'}}" 
+        src="{{musicInfo.al.picUrl}}"></image>
+    </view>
+
+    <w-lyric isLyric="{{isLyric}}" bind:tap="onLyric" lyric="{{lyric}}"/>
+
+    <view class="progress-bar">
+        <w-progress-bar bind:musicEnd="onNext"/>
+    </view>
+
+    <view class="control">
+        <text class="iconfont icon-backward_end" bindtap="onPrev"></text>
+        <text class="iconfont {{isPlaying?'icon-pause':'icon-play'}}" bindtap="onPause"></text>
+        <text class="iconfont icon-forward_end" bindtap="onNext"></text>
+    </view>
+
+</view>

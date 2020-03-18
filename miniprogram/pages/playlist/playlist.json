@@ -1,5 +1,6 @@
 {
   "usingComponents": {
     "w-playlist":"/components/playlist/playlist"
-  }
+  },
+  "enablePullDownRefresh":false
 }

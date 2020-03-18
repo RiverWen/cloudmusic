@@ -1,0 +1,33 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1584072276310'); /* IE9 */
+  src: url('iconfont.eot?t=1584072276310#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAP4AAsAAAAACNgAAAOrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDKgqEdIQuATYCJAMUCwwABCAFhG0HUxu9B8gekqSfBAooZwGFSgCACKo1smd37h7BIUl0GImoCIx4G/VR6KIUoPApzy7C/PV29T3zjlC0zA6MAKtyQZ/RmjBnQxIyQo3VFKFCW7wSpOlAmff+D46ZLkoHlmdbO2WURtt0lEADivpKrRD+pwd7Qf9leHXQ6/TdBLpNUoOdolwfhYZk7AvEM19bKzRSRllDDJ2atuTMFC+g0Vme46sAjv2fj3+gE0wUTWXc6/yDnVlY/pR9VEMptBS3awoc9WcHdx4V60AST0qd95TD5DqkW8mv2AE6zVWFn3IPF49qNBqFkxWvxd6pm/qHR5VCIVqGspfC7unTnolsu2onRdgnwSJMJ/itllJwTmfQjT58Boge3czTR1ZFyiFuDklOtiF2dvrZONC1/H4MvUwVRKl9eT2QR73B+cuS9E1LeXIeM0JQa+zZ6ZAn4FZ5rHs1az4/XuGQr+g9L4qn9LZR0sNXl7cmXlVdLHkLYnSNiw0VqNGVXStT+FwqWOJ3d2339uwODhz29x03d/P2DULqASF/z56y+4BQqRME1seaaJ1kxVW3vx4hvJa/Mn8+X5HqgtkdiXMSudSFuAXVOUmSJM4ELiJhICKPOOqCTvEEjD6W8eWbgGN6czr3qq90rnRnnXuy9P5lg/8awsl1xepcREkiVwKhQh3m+u7NrhtUzbUa1rxU9VXOVe4ss0mYrpLD6PkZIdkwy8fSOIdaxp2kV2SR3N3nSUVD7ob6m1wyBzfHCju3GDf7Cgf3GNON3pY7/gu3/b0KCvYUzhUebfkvJ5x4MOsHX8ZYPY1f+ywnV7UZSf4FhmDn3Us4c5r9ZmJN8KNU0RYFTq4S4KLXLFJE/4MI2JOqxDA1KdfbQtnV2E6EFV6/5D/IMuy8H/UYuJzQaSyGosMEVJ3mkYldh0aPDWh12oVua6jn9xgRpiyyC6syEYRBw1D0ew/VoDVkYs+gMe4NWoOBoNvV4L1ij8XwZSGGQROY5BZLvu5xZFkWaQWVN9h5oHFS4pNe4MyNkLaGVjZzQATu45jwKHsaEWGRV1gcEgXdD0EQU0hY7MGQoU+EJAtNTa+yVxq6B4eFlkMMNAJMxM0P8WWIRSx3tGjlvv8GbLmAhmsaKrwvwDLu4kSbBi0A8qCMQA3nsjrcm20qgrDoXV5YLEQo2A6BmYyRkPJNHjCIIZ8W8cSCJjXIC6ocjq8Or/EcdDMe1kSJGhlNtHrvuBr+R2NTQWS2vYI5Xl8Ncc0zVEICtF+hAAA=') format('woff2'),
+  url('iconfont.woff?t=1584072276310') format('woff'),
+  url('iconfont.ttf?t=1584072276310') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1584072276310#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-backward_end:before {
+  content: "\e7df";
+}
+
+.icon-forward_end:before {
+  content: "\e82c";
+}
+
+.icon-pause:before {
+  content: "\e623";
+}
+
+.icon-play:before {
+  content: "\e624";
+}
+

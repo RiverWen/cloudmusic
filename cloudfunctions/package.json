@@ -1,7 +1,6 @@
 {
   "name": "cloudfunctions",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +11,7 @@
     "axios": "^0.19.2",
     "lodash": "^4.17.15",
     "wx-server-sdk": "^1.8.2"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }

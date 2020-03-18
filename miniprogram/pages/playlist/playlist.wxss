@@ -9,3 +9,10 @@
     justify-content: space-around;
     padding-top: 20rpx
 }
+.bottomLine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    padding: 20rpx 0 40rpx 0
+}
